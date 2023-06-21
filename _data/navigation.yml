@@ -5,7 +5,42 @@ navside:
         url: /chapter-1
       - title: "Chapter 2 - The Basic of Statistics"
         url: /chapter-2
-
+      - title: "Chapter 3 - Data Visualization"
+        url: /chapter-3
+      - title: "Chapter 4 - Probability"
+        url: /chapter-4
+      - title: "Chapter 5 - Data Distribution"
+        url: /chapter-5
+      - title: "Chapter 6 - Point Estimation"
+        url: /chapter-6
+      - title: "Chapter 7 - Test of Hypothesis"
+        url: /chapter-7
+      - title: "Chapter 8 - Analysis of Variance"
+        url: /chapter-8
+      - title: "Chapter 9 - Simple Linear Regression"
+        url: /chapter-9
+      - title: "Chapter 10 - Multiple Linear Regression"
+        url: /chapter-10
+      - title: "Chapter 11 - Non-parametric Statistics"
+        url: /chapter-11
+      - title: "Chapter 12 - Sampling Procedures"
+        url: /chapter-12
+      - title: "Chapter 13 - Experiment Design"
+        url: /chapter-13
+      - title: "Chapter 14 - Quality Control"
+        url: /chapter-14
+      - title: "Chapter 15 - Generalized Linear Model"
+        url: /chapter-15
+      - title: "Chapter 16 - Non-linear Regression"
+        url: /chapter-16
+      - title: "Chapter 17 - Time Series and Forecasting"
+        url: /chapter-17
+      - title: "Chapter 18 - Panel Data"
+        url: /chapter-18
+      - title: "Chapter 19 - Machine Learning"
+        url: /chapter-19
+      - title: "Chapter 20 - Future Reads"
+        url: /chapter-20
 main:
   - title: Author
     url: /author

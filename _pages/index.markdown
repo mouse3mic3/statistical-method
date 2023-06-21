@@ -7,7 +7,7 @@ sidebar:
 # classes: wide
 ---
 
-# A Guide to Statistical Method and Analysis
+<!-- # A Guide to Statistical Method and Analysis -->
 Written especially for future statisticians
 
 ## About the Guide
@@ -23,7 +23,8 @@ We will mostly discuss practical statistical analysis and case-studies. However,
 ## Read Materials
 Many books and papers were referenced. I would strongly suggest you read the following instead if you are looking for more in-depth, expert-written topics in Statistics.
 
-- Ott, R. Lyman and Longnecker, M. An Introduction to Statistical Methods & Data Analysis.
+- Ott, R. L. and Longnecker, M. An Introduction to Statistical Methods & Data Analysis.
+- Walpole, R. E., et al. Probability & Statistics for Engineers & Scientists.
 
 
  
