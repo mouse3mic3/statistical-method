@@ -18,7 +18,7 @@ Let’s say that tomorrow it will be raining. Obviously, we can’t be certain t
 
 Statistics help us deliver better decisions by informing us the likeliness of an event. It also aims to get the most of our data by taking into account the uncertainty and variation.
 
-{: .notice}
+{: .notice--primary}
 The list of height of all students in a high school is not just numbers on a table. If we dig deeper, we may find information about each student’s health, their physical characteristics, their age, their gender, and even their emotional condition. This is because taller students are associated with older age, females are more likely to grow faster than males at certain ages, shorter students may be caused by their lack of nutrients, or that students taller than 170cm are more confident during extracurricular.
 
 Of course, these are just ideas that have not been verified. **Statistical methods can help us verify these ideas and deliver a meaningful number that we can assess**, usually in probability. Instead of saying ‘tall students are more confident than short students’, we can say ‘tall students have 10% more chance to be confident during extracurricular than short students’.
