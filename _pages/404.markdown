@@ -1,0 +1,7 @@
+---
+layout: single
+title: 404 Not Found
+permalink: /NotFound/
+---
+
+# Whoops! That URL is not recognized :0

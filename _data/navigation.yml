@@ -1,0 +1,11 @@
+navside:
+  - title: Chapters
+    children:
+      - title: "Chapter 1 - A Gentle Intro to Statistics"
+        url: /chapter-1
+      - title: "Chapter 2 - The Basic of Statistics"
+        url: /chapter-2
+
+main:
+  - title: Author
+    url: /author

@@ -28,7 +28,7 @@ twitter_username: Mouse3Mic3
 github_username: mouse3mic3
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
@@ -40,6 +40,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+include: ["_pages"]
 exclude:
   - .sass-cache/
   - .jekyll-cache/
