@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Chapter 7 - Test of Hypothesis
-permalink: /chapter-6/
+permalink: /chapter-7/
 toc: True
 sidebar:
   nav: "navside"
