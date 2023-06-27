@@ -100,19 +100,22 @@ When the sample size is small and our sample is not close to normal, using the z
 add note
 
 ## Sample Size Requirement
-It is possible to calculate the (minimum) sample size given a desired error level E. 
+It is possible to calculate the (minimum) sample size given a desired error level E (or a given confidence interval width).
 
 Previously, the $100(1-\alpha)\%$ confidence interval of the mean estimate $\bar{y} \pm z_{\frac{\alpha}{2}}\sigma/\sqrt{n}$. 
 
-Let $E = z_{\frac{\alpha}{2}}\sigma/\sqrt{n}$ be our error term.
+Let $E = z_{\frac{\alpha}{2}}\sigma/\sqrt{n}$ be our error term. Our confidence interval width is $W = 2E$.
 
 Solving for n, we have $n = \frac{z_{\frac{\alpha}{2}}^2\sigma^2}{E^2}$
+
+We may also replace $E$ with $W/2$.
 
 <div class="notice--primary">
 
 <b>Example</b><br>
 Venera High School students often use paper to write notes and work on assignments. The amount of paper used has skyrocketed recently nearing the final exam. The school official wants to monitor the average number of sheets used by a student in a day and develop a strategy to reduce its usage. For the estimates to be useful, they must be within 2 sheets of the true mean. Previous studies have shown that a similar high school student uses 7 sheets a day with a standard deviation of 9.3. How many students should be sampled in order to be 95% confident that the estimated number of sheets used will satisfy the level of accuracy?
 <br><br>
+<b>Solution</b><br>
 Since the school does not know the population standard deviation, it is possible to use the number from previous study in a similar high school. We have $s = 9.3$ and $E = 2$. From the given confidence level of 95%, we have $\alpha = 5\%$ and $z_{2.5\%} = 1.96$. Thus,
 <br>
 $$\begin{align}
@@ -124,14 +127,29 @@ When it comes to determining sample size, it is advisable to round it up to the 
 
 </div>
 
-## Standard Error of the Estimate
+<div class="notice--primary">
 
-## Estimating the Difference of Two Means
+<b>Example</b><br>
+A company is producing a new kind of faucet, which is expected to flow at a rate of 1.6 gpm. The company incorporated a control system during production, which limits the deviation of the flow rate to 0.3 gpm. As part of the monthly routine, the company wants to investigate the average flow rate of faucets produced with 97.5% degree of confidence and interval width of 0.1. How many faucets should the company sample to correctly determine the true average flow rate?
+<br><br>
+<b>Solution</b><br>
+The company has specified a confidence interval width of $W = 0.1$, which correspond to $E = W/2 = 0.05$. The value of $Z_{0.0125}$ is 2.24. Putting the numbers, we have
+<br>
+$$\begin{align}
+n &= \frac{(2.24^2)(0.3)^2}{(0.05)^2}\\
+&= 180.63
+\end{align}$$
+<br>
+We found that the company should sample at least 181 faucets to get an estimate of the mean flow rate within $\pm0.05$
 
-## Estimating the Proportion
+</div>
 
-## Estimating the Difference of Two Proportions
+# Estimating the Difference of Two Means
 
-## Estimating the Variance
+# Estimating the Proportion
 
-## Estimating the Ratio of Two Variances
+# Estimating the Difference of Two Proportions
+
+# Estimating the Variance
+
+# Estimating the Ratio of Two Variances
